@@ -10,7 +10,7 @@ function TermsOfUse() {
       <div className='' onClick={(e) => setIsActive(!isActive)}>
         <div className='container flex flex-row  justify-between mx-auto w-3/4 '>
                               
-                              <h1>CUSTOMER CARE</h1>  
+                              <h1>TERMS OF USE</h1>  
                               <p>+</p>
                         </div>  
         </div>
