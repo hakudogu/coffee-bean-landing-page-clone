@@ -1,10 +1,12 @@
-
+import Dropdown from './dropdown.jsx';
+import 'react-dropdown/style.css';
 import { Icon } from '@iconify/react';
 import React, { Component } from 'react'
 
 export class Nav extends Component {
 
   render() {
+      
     return (
 
     <div className='bg-white justify-end -mb-20 fixed z-10'>
@@ -16,16 +18,11 @@ export class Nav extends Component {
       </div>
       {/*find a store section end*/}
 
-      <div className='py-5 flex justify-start lg:justify-end '>
-      
-          <div className='flex flex-col mx-2 absolute items-start space-y-1 my-0'>            
-          <hr className='w-7 h-1 border-3 rounded-sm bg-purple-800 lg:hidden '/>
-          <hr className='w-7 h-1 border-3 rounded bg-purple-800 lg:hidden'/>
-          <hr className='w-7 h-1 border-3 rounded  bg-purple-800 lg:hidden'/>
-          </div>
-          
+      <div className='py-1 flex justify-start lg:py-5 lg:justify-end '>
+
           {/* navbar start */}
-       <div className='w-96 h-4 flex '>
+          <Dropdown/>
+          <div className='w-96 h-4 flex '>
 
           <img src='https://www.coffeebean.com.ph/wp-content/themes/mondays-made-better-theme/dist/images/brand/logo-mobile_37382b4c.svg' 
           alt='logo-mobile'

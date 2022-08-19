@@ -1,35 +1,28 @@
 import React, { Component } from 'react'
 import { Icon } from '@iconify/react';
+import Footerdropdown from './footer-dropdown.jsx';
+import Ourstory from './dropdown-ourstory.jsx';
+import Customercare from './customer-care.jsx';
+import TermsOfUse from './terms-of-use.jsx';
 export class Footer extends Component {
   render() {
     return (
       <div className='w-full h-full bg-gray-100 '>
         <div className='lg:hidden flex flex-col font-bold text-slate-700'>
-                      <div className='container pt-32 flex flex-row  justify-between mx-auto w-3/4 '>
-                            <h1 className='uppercase'>Menu</h1>
-                            <p>+</p>
-                      </div>        
+                              <Footerdropdown/>
+                           
                       <div className='container mb-6 mx-auto w-3/4'>
                       <hr className='w-full'/>
                       </div>
-                      <div className='container flex flex-row  justify-between mx-auto w-3/4 '>
-                            <h1 className='uppercase'>Our Story</h1>
-                            <p>+</p>
-                      </div>        
+                      <Ourstory/>     
                       <div className='container mb-6 mx-auto w-3/4'>
                       <hr className='w-full'/>
                       </div>
-                      <div className='container  flex flex-row  justify-between mx-auto w-3/4 '>
-                            <h1>CUSTOMER CARE</h1>
-                            <p>+</p>
-                      </div>        
+                     <Customercare/>     
                       <div className='container mb-6 mx-auto w-3/4'>
                       <hr className='w-full'/>
                       </div>
-                      <div className='container flex flex-row  justify-between mx-auto w-3/4 '>
-                            <h1>TERMS OF USE</h1>
-                            <p>+</p>
-                      </div>
+                      <TermsOfUse/>
                       <div className='container mb-6 mx-auto w-3/4'>
                       <hr className='w-full'/>
                       </div>
@@ -160,7 +153,7 @@ export class Footer extends Component {
                        <h1 className='hidden pt-12 lg:flex w-4/5 justify-start text-xl font-extrabold mx-auto text-zinc-400'>
                         THE COFFEE BEAN<p className='text-sm  underline'> & </p> TEA LEAF
                       </h1>
-                      <p className='hidden lg:flex justify-start mx-auto text-xs w-4/5 mb-12 text-slate-400'>
+                      <p className='hidden lg:flex justify-start mx-auto text-xs w-4/5 pb-12 text-slate-400'>
                         © 2019 International Coffee & Tea, LLC “The Coffee Bean & Tea Leaf” and logo are registered trademark of International Coffee & Tea, LLC.
                         </p>                   
                    </div>

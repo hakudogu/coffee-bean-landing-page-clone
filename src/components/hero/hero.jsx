@@ -33,6 +33,19 @@ export class Hero extends Component {
           
       </div>
     
+      <div>
+          <img 
+          className='object-contain'
+          src="https://www.coffeebean.com.ph/wp-content/uploads/2021/05/FA-TCBTL-MAY2021-Swirl-Rewards-Awareness-Campaign-Website-Banner-Desktop.jpg" />
+          
+      </div>
+      
+      <div>
+          <img 
+          className='object-contain'
+          src="https://www.coffeebean.com.ph/wp-content/uploads/2021/04/FA-TCBTL-APR2021-Website-Revisions_E-Commerce-Banner-Desktop.jpg" />
+       
+      </div>
   </Carousel>
           </div>
 
