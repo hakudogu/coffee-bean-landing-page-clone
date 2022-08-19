@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Icon } from '@iconify/react';
 export class Footer extends Component {
   render() {
     return (
@@ -29,17 +29,26 @@ export class Footer extends Component {
                       <div className='container flex flex-row  justify-between mx-auto w-3/4 '>
                             <h1>TERMS OF USE</h1>
                             <p>+</p>
-                      </div>        
+                      </div>
                       <div className='container mb-6 mx-auto w-3/4'>
                       <hr className='w-full'/>
                       </div>
-                    <div className='pt-6 container mx-auto w-3/4 flex justify-start'>
-                      <label htmlFor='' className='mr-1 font-light text-sm text-black'>
+                    <div className='pt-6 container mx-auto w-3/4 flex flex-col'>
+                      <div className='justify-start text-left'>  
+                      <label htmlFor='' className='font-light mr-2 text-left text-sm text-black'>
                         JOIN OUR NEWSLETTER 
                         </label>
-                      <input type='text' placeholder=' Email Address'
-                       className='border border-slate-500 text-slate-100 font-light text-sm' >
+                      <input type='text'  placeholder=' Email Address'
+                       className='border border-slate-500 text-black font-light  text-sm' >
                       </input><br/>
+                         </div>        
+                      
+                         <div className='flex flex-row w-full py-2 justify-start'>
+                      <Icon icon="dashicons:facebook-alt" color="#532d6d" className='mr-4' />
+                      <Icon icon="akar-icons:instagram-fill" color="#532d6d" className='mr-4'/>
+                      <Icon icon="akar-icons:twitter-fill" color="#532d6d" className='mr-4'/>
+                      <Icon icon="akar-icons:youtube-fill" color="#532d6d" className='mr-4'/>
+                      </div>
                     </div>
 
                       <h1 className='pt-6 container mx-auto w-3/4 flex justify-start text-slate-400'>
@@ -50,7 +59,7 @@ export class Footer extends Component {
                         </p>
         </div>
         {/* footer large version */}
-                  <div className='container hidden lg:grid grid-cols-6 gap-4 mx-auto h-full justify-center '>
+                  <div className='container hidden lg:grid grid-cols-5 gap-4 lg:w-4/5 mx-auto h-full justify-center '>
                     <div className='flex flex-col text-left '>
                       <div className='w-30 mt-20'>
                         <a href='#' className='no-underline'>
@@ -130,25 +139,31 @@ export class Footer extends Component {
                         </a>
                         </div>
                         {/* subscribe to newsletter */}
-                    <div className='col-span-2 mt-20'>
-                        <div className='container mx-auto w-3/4 flex flex-col items-start'>
+                    <div className='col-span-1 mt-20 '>
+                        <div className='justify-start  w-full flex flex-col text-left '>
                       <label htmlFor='' className='mr-1 font-light text-sm text-black'>
                         JOIN OUR NEWSLETTER 
                         </label>
                       <input type='text' placeholder=' Email Address'
                        className='border border-slate-500 text-slate-100 font-light text-sm' >
-                      </input><br/>
+                      </input>
+                      <div className='flex flex-row w-full py-2 justify-start'>
+                      <Icon icon="dashicons:facebook-alt" color="#532d6d" className='mr-4' />
+                      <Icon icon="akar-icons:instagram-fill" color="#532d6d" className='mr-4'/>
+                      <Icon icon="akar-icons:twitter-fill" color="#532d6d" className='mr-4'/>
+                      <Icon icon="akar-icons:youtube-fill" color="#532d6d" className='mr-4'/>
+                      </div>
                     </div>
                         </div>
                        </div>
 
-                       <h1 className='hidden lg:flex container mx-auto justify-start text-slate-400'>
-                        THE COFFEE BEAN<p className='text-xs align-bottom underline'>&</p> TEA LEAF
+                       <h1 className='hidden pt-12 lg:flex w-4/5 justify-start text-xl font-extrabold mx-auto text-zinc-400'>
+                        THE COFFEE BEAN<p className='text-sm  underline'> & </p> TEA LEAF
                       </h1>
-                      <p className='hidden lg:flex text-xs container mx-auto text-slate-400'>
+                      <p className='hidden lg:flex justify-start mx-auto text-xs w-4/5 mb-12 text-slate-400'>
                         © 2019 International Coffee & Tea, LLC “The Coffee Bean & Tea Leaf” and logo are registered trademark of International Coffee & Tea, LLC.
-                        </p>               
-                          </div>
+                        </p>                   
+                   </div>
     )
   }
 }
