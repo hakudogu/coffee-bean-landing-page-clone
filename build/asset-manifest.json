@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dde510f0.css",
+    "main.js": "/static/js/main.0091d335.js",
+    "static/media/caringcup.jpg": "/static/media/caringcup.ed870da920b3d7aec4c3.jpg",
+    "static/media/Shop.jpg": "/static/media/Shop.c31891f8cafa6d558900.jpg",
+    "static/media/swirlRewards.jpg": "/static/media/swirlRewards.2f132783826f67a4a019.jpg",
+    "index.html": "/index.html",
+    "main.dde510f0.css.map": "/static/css/main.dde510f0.css.map",
+    "main.0091d335.js.map": "/static/js/main.0091d335.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dde510f0.css",
+    "static/js/main.0091d335.js"
+  ]
+}
