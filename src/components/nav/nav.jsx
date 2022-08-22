@@ -18,7 +18,7 @@ export class Nav extends Component {
       </div>
       {/*find a store section end*/}
 
-      <div className='py-1 flex justify-start lg:py-5 lg:justify-end '>
+      <div className='py-1 flex justify-start lg:py-5 lg:justify-end'>
 
           {/* navbar start */}
           <Dropdown/>
@@ -30,9 +30,9 @@ export class Nav extends Component {
           />
           <img src='https://www.coffeebean.com.ph/wp-content/themes/mondays-made-better-theme/dist/images/brand/logo-desktop_59e7c25c.svg' 
           alt='logo'
-          className='hidden lg:flex absolute left-2 top-12 '/>
+          className='hidden lg:flex absolute left-2 mt-1  '/>
           </div>
-          <div className='hidden md:mw-2/5 lg:flex md:justify-end gap-4 links'>
+          <div className='hidden md:mw-2/5 lg:flex md:justify-end lg:mr-4 gap-4 links'>
           <a href='#' className=' mr-3 hidden md:flex  text-sm font-bold text-slate-500'>CARING CUP</a>
           <a href='#' className=' mr-3 hidden md:flex text-sm font-bold text-slate-500'>MENU</a>          
           <a href='#' className=' mr-3 hidden md:flex  text-sm font-bold text-slate-500'>UPDATES</a>
