@@ -1,5 +1,4 @@
 import Dropdown from './dropdown.jsx';
-import 'react-dropdown/style.css';
 import { Icon } from '@iconify/react';
 import React, { Component } from 'react'
 
@@ -9,12 +8,12 @@ export class Nav extends Component {
       
     return (
 
-    <div className='bg-white justify-end -mb-20 fixed z-10'>
+    <div className='bg-white justify-end h-fit -mb-20 flex flex-col relative z-20'>
       {/*find a store section start*/}
       {/* <FontAwesomeIcon icon="fa-thin fa-location-dot" className='h-96 z-20'  /> */}
-      <div style={{backgroundColor: '#532d6d'}} className='py-2 px-2 w-screen flex flex-row'>
-      <Icon icon="carbon:location" color='gray' className='border-slate-50 '/>
-        <p className='flex justify-start font-semibold px-2 text-white text-xs'>Find a store</p>
+      <div style={{backgroundColor: '#532d6d'}} className='py-2 px-2 w-full flex flex-row'>
+      <Icon icon="ci:location" color="white" className='text-xl -translate-y-0'/>
+        <p className='flex justify-start items-center font-semibold px-1 text-white text-xs'>Find a store</p>
       </div>
       {/*find a store section end*/}
 

@@ -3,9 +3,9 @@ import caringcup from './caringcup.jpg'
 export class CaringCup extends Component {
   render() {
     return (
-      <div className='w-full flex flex-col relative items-center justify-center'>
+      <div className='w-full h-full flex flex-col relative items-center justify-center'>
           
-        <img className='w-full '
+        <img className='w-full  flex object-cover h-full '
         src={caringcup}/>
         <div className='absolute w-3/4'>
         <h1 className='font-bold text-4xl text-yellow-50 mb-8 uppercase'>

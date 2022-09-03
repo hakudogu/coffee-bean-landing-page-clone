@@ -3,13 +3,13 @@ import { Nav, Footer, Featured, Hero,  CaringCup, ShopAndSwirl } from './compone
 import OurStory from './components/ourstory/ourStory';
 import React from 'react';
 import {render} from 'react-dom'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+// import {showSlides} from './components/hero/hero.js'
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Hero/>
+
       <OurStory/>
       <CaringCup/>
       <ShopAndSwirl/>
